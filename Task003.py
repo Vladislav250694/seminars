@@ -57,7 +57,7 @@ for i in range(len(some_list3)):
         some_list4.append(a)
     else:
         continue
-# print (some_list4)
+print (some_list4)
 array = list(map(int, some_list4))
-# print(array)
+print(array)
 print(f'0.{max(array) - min(array)}')
